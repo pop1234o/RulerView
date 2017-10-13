@@ -1,6 +1,7 @@
  ### 一个模仿薄荷的标尺控件
 
  ## 效果
+ 图片第一次加载可能会比较卡
  ![](/ruler.gif)
 
  ## 使用示例
@@ -20,7 +21,7 @@
         rv_ruler.config(0.1f, "kg", Color.parseColor("#1aa260"));
         //设置滑动范围
         rv_ruler.setRange(30,100);
- 		//设置初始位置，默认为最小值
+        //设置初始位置，默认为最小值
         rv_ruler.scrollTo(50);
 
  ```
